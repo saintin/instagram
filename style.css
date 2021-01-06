@@ -1,0 +1,254 @@
+body {
+    background-color: #fafafa;
+    margin: auto;
+}
+
+header {
+    /* width: 1448px; */
+    height: 53px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #8F8F8F;
+}
+
+header .container {
+    display: flex;
+    align-items: flex-start
+}
+
+.container {
+    margin: auto;
+    width: 935px;
+}
+
+.logo {
+    margin-top: 15px;
+    /* position: absolute; */
+    left: 16.78%;
+    right: 76.04%;
+    top: 0.71%;
+    bottom: 97.97%;
+    /* background: #221F20; */
+}
+
+.logo img {
+    vertical-align: middle;
+}
+
+#search {
+    /* position: absolute; */
+    width: 215px;
+    height: 29px;
+    left: 604px;
+    top: 12px;
+    margin-left: 257px;
+    background: #FAFAFA;
+    /* INSTAGRAM LIGHT GREY */
+    border: 1px solid #DBDBDB;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-image: "img/search.png";
+    background: url(img/search.png) 11px center no-repeat;
+    padding: 6px 28px;
+    vertical-align: middle;
+    margin-top: 12px;
+}
+
+.social-links {
+    display: flex;
+    margin-top: 12px;
+}
+
+.social-links a {
+    display: inline-block;
+    text-indent: -9999px;
+    height: 22px;
+    width: 22px;
+}
+
+.header-home {
+    background: url(img/home.png) no-repeat;
+    margin-left: 163px;
+}
+
+.header-forward {
+    background: url(img/forward.png) no-repeat;
+    margin-bottom: 18px;
+    margin-left: 22px;
+    height: 18, 82px;
+}
+
+.header-map {
+    background: url(/img/map.png) no-repeat;
+    margin-left: 22px;
+}
+
+.header-favourites {
+    background: url(/img/heart.png) no-repeat;
+    margin-left: 22px;
+}
+
+.header-profile {
+    background: url(http://lorempixel.com/g/22/22/) no-repeat;
+    margin-left: 22px;
+    border-radius: 50%;
+}
+
+.about {
+    margin-top: 30px;
+}
+
+.about img {
+    border-radius: 50%;
+    margin-left: 56px;
+}
+
+.about .container {
+    display: flex;
+    align-items: flex-start
+}
+
+.about-name {
+    /* text-transform: uppercase; */
+    margin-left: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 26px;
+}
+
+button {
+    border: 0;
+    text-align: center;
+    color: white;
+    /* width: 96px ; */
+    height: 28px;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.folow_btn {
+    margin-left: 26px;
+    font-weight: bold;
+    width: 96px;
+    background-color: #4094ef;
+}
+
+.more_btn {
+    margin-left: 8px;
+    background: url(img/Polygon_9.png) 8px center no-repeat;
+    background-color: #4094ef;
+    padding-left: 13px;
+    width: 33px;
+    display: inline-block;
+    text-indent: -9999px;
+    background-color: #4094ef;
+}
+
+.ball_btn {
+    background-color: #FAFAFA;
+    ;
+    margin-left: 16px;
+}
+
+.ball {
+    background: url(/img/ball.png) center no-repeat;
+    display: inline-block;
+    margin-left: 4px;
+    /* text-indent: -9999px; */
+    /* color: black; */
+}
+
+.stats {
+    display: flex;
+    margin-left: 100px;
+    margin-top: 21px;
+    font-family: Roboto;
+}
+
+.stats span {
+    padding-right: 10px;
+}
+
+.intro {
+    padding-left: 100px;
+    padding-top: 21px;
+    font-weight: 500px;
+}
+
+.intro_name {
+    font-weight: 500;
+    font-size: 17px;
+    color: #262626;
+    font-family: Roboto;
+}
+
+.intro_text {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 25px;
+}
+
+.intro a {
+    color: #133768;
+    font-weight: 500px;
+    text-decoration: unset;
+}
+
+.stories {
+    /* margin: 0 auto; */
+    display: flex;
+    /* width: 935px; */
+    /* margin-left: 44px; */
+    text-align: center;
+    margin: auto;
+    width: 935px;
+    margin-top: 56px;
+}
+
+.story img {
+    border-radius: 50%;
+    /* margin-right: 55px; */
+    margin: 0 27.5px;
+}
+
+.vitrina {
+    width: 935px;
+    margin: auto;
+}
+
+.vitrina .links {
+    display: flex;
+    text-align: center;
+    /* margin: auto; */
+    justify-content: center;
+    margin: 18px 61px 18px 61px;
+    text-transform: uppercase;
+    font-weight: 700;
+    /* margin-right: 61px; */
+}
+
+.links img {
+    margin-top: 2px;
+    margin-right: 7px;
+    width: 11.25px;
+    height: 11.25px;
+}
+
+.links span{
+    margin-right: 61px;
+}
+
+.vitrina_items {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.vitrina img {
+    margin-bottom: 10px;
+}
